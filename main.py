@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-user_email = input("What is your email\n")
+user_email = input("What is your email?\n")
 user_password = input("What is your password?\n")
 
 driver = webdriver.Chrome()
