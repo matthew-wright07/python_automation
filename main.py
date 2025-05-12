@@ -20,6 +20,6 @@ email.send_keys(user_email)
 password.send_keys(user_password)
 signIn.click()
 
-input("Please type something\n")
+print("Done.")
 
 driver.quit()
